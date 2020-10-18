@@ -15,6 +15,16 @@ html, body {
   justify-content: center;
 }
 
+.w-left {
+  align-items: left;
+  justify-content: left;
+}
+
+.w-right  {
+  align-items: left;
+  justify-content: flex-end;
+}
+
 .wrapper .file-upload {
   height: 200px;
   width: 200px;
