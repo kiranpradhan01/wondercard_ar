@@ -41,6 +41,30 @@
             <br>
         </header>
         <a class="btn-primary btn-lg" href="experience.html" role="button"> ~ Upload an experience ~ </a>
+        <div class="row text-center">
+          <div class="col-12">
+            <img src="../img/undraw_Optimize_image_re_3tb1.svg" alt="" class="upload-img">
+            <h2>Upload target image and video</h2>
+            <form enctype="multipart/form-data">
+              <label for="file_image">Upload an Image</label>
+              <div class="wrapper">
+                <div class="file-upload">
+                  <input type="file" id="file_image" name="file_image"/>
+                  <i class="fa fa-arrow-up"></i>
+                </div>
+              </div>
+    
+              <label for="file_video">Upload a Video</label>
+              <div class="wrapper">
+                <div class="file-upload">
+                  <input type="file" id="file_video" name="file_video"/>
+                  <i class="fa fa-arrow-up"></i>
+                </div>
+              </div>
+              <button onclick="handleRequest()">Submit</button>
+            </form>
+          </div>
+        </div>
         </div>
     </div>
 </body>
