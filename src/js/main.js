@@ -7,13 +7,13 @@ window.mobileCheck = function() {
 function showMobileView() {
   main_component = document.getElementById("main-btn")
   main_component.innerHTML = "Scan Image"
-  main_component.href = "/mobile.html"
+  main_component.href = "/pages/mobile.html"
 }
 
 function showWebView() {
   main_component = document.getElementById("main-btn")
   main_component.innerHTML = "Generate Card"
-  main_component.href = "/web.html"
+  main_component.href = "/pages/web.html"
 }
 
 if (window.mobileCheck()) {
