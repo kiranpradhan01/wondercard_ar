@@ -6,13 +6,13 @@ window.mobileCheck = function() {
 
 function showMobileView() {
   main_component = document.getElementById("main-btn")
-  main_component.innerHTML = "Scan Image"
+  main_component.innerHTML = " ~ Begin ~ "
   main_component.href = "./src/pages/mobile.html"
 }
 
 function showWebView() {
   main_component = document.getElementById("main-btn")
-  main_component.innerHTML = "Generate Card"
+  main_component.innerHTML = " ~ Upload an experience ~ "
   main_component.href = "./src/pages/web.html"
 
   // // remove this lol
