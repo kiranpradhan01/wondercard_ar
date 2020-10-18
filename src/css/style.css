@@ -16,7 +16,7 @@
 }
 
 .header {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .w-70 {
@@ -26,4 +26,11 @@
 .title-img {
     max-width: 315px;
     display: inherit;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header {
+        font-size: 3rem;
+    }
 }
