@@ -12,15 +12,14 @@
 
 #title-card {
     padding-top: 3rem;
-    margin-bottom: 9rem;
 }
 
 .header {
     font-size: 2rem;
 }
 
-.w-70 {
-    margin: 6%;
+body {
+    margin-top: 1rem;
 }
 
 .title-img {
@@ -31,6 +30,10 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .header {
-        font-size: 3rem;
+        font-size: 5rem;
+    }
+
+    body {
+        margin-top: 5rem;
     }
 }
