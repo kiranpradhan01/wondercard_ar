@@ -6,12 +6,16 @@ async function handleRequest(e) {
     body: new FormData(formElement)
   })
   .then((response) => {
-    let result = response.json();
+    console.log(response)
+    try {
+      let result = response.json()
+    } catch {
+      window.alert("There was an error")
+    }
     console.log(result)
   })
   .catch((response) => {
-    let result = response.json();
-    window.alert("There was an error")
-    console.log(result)
+    window.alert("There was an error. Please try again.")
+    console.log(response)
   })
 }
