@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:disabled {
+    background-color: #F50057 !important;
+    border-color: #F50057;
+    color: black;
+}
+
+#title-card {
+    padding-top: 3rem;
+    margin-bottom: 9rem;
+}
+
+.header {
+    font-size: 4rem;
+}
+
+.w-70 {
+    margin: 6%;
+}
+
+.title-img {
+    max-width: 315px;
+    display: inherit;
+}
